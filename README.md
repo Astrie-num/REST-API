@@ -1,2 +1,2 @@
 # REST-API
- A basic RESTful API using Express.js. Implement basic CRUD (Create, Read, Update, Delete)
+ A basic RESTful API using Express.js. Implementing the basic CRUD (Create, Read, Update, Delete)
