@@ -1,12 +1,11 @@
 const mysql = require('mysql2');
-const config = require('../config/config');
+const dbConfig = require('../config/dbConfig');
 
 
 const connection = mysql.createConnection({
-    host : config.DB_HOST,
-    user : config.DB_USER,
-    password : config.DB_PASSWORD,
-    database : config.DB_NAME
+    user : dbConfig.username,
+    password : dbConfig.password,
+    database : dbConfig.database
 });
 
 connection.connect((err) => {
